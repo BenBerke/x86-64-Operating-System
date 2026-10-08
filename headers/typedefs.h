@@ -14,6 +14,11 @@ typedef unsigned int u32;
 typedef long i64;
 typedef unsigned long u64;
 
-typedef unsigned char bool;
+#define bool unsigned char
+#define true 1
+#define false 0
+
+#define NULL 0
+
 
 #endif //X86OS_TYPEDEFS_H
